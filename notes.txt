@@ -1,0 +1,13 @@
+npm i -g json-server or 
+cd src\assets\data
+json-server --watch .\db.json
+
+or 
+
+npx json-server --watch db.json
+
+
+------------------------------
+
+ 
+

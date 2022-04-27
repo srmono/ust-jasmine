@@ -9,10 +9,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { OrdersModule } from './orders/orders.module';
 import { FormsModule } from '@angular/forms';
 import { SiteFrameworkModule } from './site-framework/site-framework.module';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReviewsComponent
   ],
   imports: [
     AppRoutingModule,
